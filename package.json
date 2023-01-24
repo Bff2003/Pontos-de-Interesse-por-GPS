@@ -1,0 +1,25 @@
+{
+  "name": "pontos-de-interesse-por-gps",
+  "version": "1.0.0",
+  "description": "A XY Inc. é uma empresa especializada na produção de excelentes receptores GPS (Global Positioning System).\r A diretoria está empenhada em lançar um dispositivo inovador que promete auxiliar pessoas na localização de pontos de interesse (POIs), e precisa muito de sua ajuda.\r Você foi contratado para desenvolver a plataforma que fornecerá toda a inteligência ao dispositivo! Esta plataforma deve ser baseada em serviços REST, de forma a flexibilizar a integração.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bff2003/Pontos-de-Interesse-por-GPS.git"
+  },
+  "author": "Bernardo Farrobinha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bff2003/Pontos-de-Interesse-por-GPS/issues"
+  },
+  "homepage": "https://github.com/Bff2003/Pontos-de-Interesse-por-GPS#readme",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "express": "^4.18.2",
+    "sqlite3": "^5.1.4"
+  }
+}
