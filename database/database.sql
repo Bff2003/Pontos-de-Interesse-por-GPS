@@ -5,5 +5,3 @@ create table if not exists pontoDeInteresse (
   latitude decimal(10,8) not null,
   longitude decimal(11,8) not null
 );
-
-drop table if exists pontoDeInteresse;
